@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "./assets/IMG_4788.PNG";
+import logoImg from "./assets/IMG_4788.PNG"; // <-- Make sure this is the correct path
 const collections = [
   {
     img: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80",
@@ -22,7 +22,7 @@ export default function Home() {
       <header className="bg-[#223047] text-white">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between py-2 px-6">
           <div className="flex items-center">
-            <img src={heroImg} alt="Domi Trend Logo" className="h-15 w-auto mr-4" />
+            <img src={logoImg} alt="Domi Trend Logo" className="h-16 w-auto mr-4" />
           </div>
           <nav className="flex flex-wrap gap-6 mt-2 md:mt-0">
             <a href="#" className="hover:text-[#b85c2b] transition">Home</a>
